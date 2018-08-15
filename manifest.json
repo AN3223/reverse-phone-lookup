@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "reverse-phone-lookup",
+    "version": "0.1.0",
+    "description": "",
+    "icons": {
+        "64": "phone.png"
+    },
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "permissions": [
+        "contextMenus",
+        "tabs",
+        "<all_urls>"
+    ]
+}
